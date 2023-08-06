@@ -11,6 +11,5 @@ function onClickButton() {
     if (this.className.includes("modal__close")) {
         let modalElement = this.closest(".modal");
         modalElement.className = "modal";
-        modalElement.close();
     }
 }
